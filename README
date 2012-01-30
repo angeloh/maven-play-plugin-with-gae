@@ -1,0 +1,8 @@
+1. update your application id to war/WEB-INF/appengine-web.xml
+2. execute `mvn clean package gae:deploy -Pautodeps,dist`
+
+Go to App Engine and click the version you chosen to upload. 
+Otherwise, you can just directly go to
+http://<version>.<your-application-id>.appspot.com/
+
+If you see the Play welcome page, it means you are successfully create a Play application on GAE. 
